@@ -1,0 +1,27 @@
+algoritmo "ReajustedeSalário"
+// Função : O usuário insere e o programa retorna o reajuste do salário.
+// Autor : Ana Claudia Correa da Silva
+// Data : 20/10/2020
+// Seção de Declarações 
+var
+
+S,MQ,MQM,MM: real
+
+inicio
+
+escreval("Qual o seu salário? ")
+leia(S)
+MQ <- (S * 1.15)
+MQM <- (S * 1.10)
+MM <- (S * 1.05)
+se (S < 500) entao
+escreval("O salário é: ",MQ)
+senao
+se (S <= 1000) entao
+escreval("O salário é: ",MQM)
+senao
+escreval("O salário é: ",MM)
+ fimse
+ fimse
+
+fimalgoritmo

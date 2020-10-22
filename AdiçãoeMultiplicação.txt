@@ -1,0 +1,62 @@
+algoritmo "AdiçãoeMultiplicação"
+// Função : O usuário insere 4 números e o programa retorna a adição e multiplicação desses números.
+// Autor : Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+
+A,B,C,D,A1,A2,A3,B1,B2,C1,A4,A5,A6,B3,B4,C2: inteiro
+
+inicio
+
+escreval("")
+escreval("Digite um número (A): ")
+leia(A)
+escreval("")
+escreval("Digite um número (B): ")
+leia(B)
+escreval("")
+escreval("Digite um número (C): ")
+leia(C)
+escreval("")
+escreval("Digite um número (D): ")
+leia(D)
+A1 <- A * B
+A2 <- A * C
+A3 <- A * D
+B1 <- B * C
+B2 <- B * D
+C1 <- C * D
+escreval("")
+escreval("A x B = ",A1)
+escreval("")
+escreval("A x C = ",A2)
+escreval("")
+escreval("A x D = ",A3)
+escreval("")
+escreval("B x C = ",B1)
+escreval("")
+escreval("B x D = ",B2)
+escreval("")
+escreval("C x D = ",C1)
+escreval("")
+A4 <- A + B
+A5 <- A + C
+A6 <- A + D
+B3 <- B + C
+B4 <- B + D
+C2 <- C + D
+escreval("")
+escreval("A + B = ",A4)
+escreval("")
+escreval("A + C = ",A5)
+escreval("")
+escreval("A + D = ",A6)
+escreval("")
+escreval("B + C = ",B3)
+escreval("")
+escreval("B + D = ",B4)
+escreval("")
+escreval("C + D = ",C2)
+
+fimalgoritmo

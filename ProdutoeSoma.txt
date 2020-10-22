@@ -1,0 +1,31 @@
+algoritmo "ProdutoeSoma"
+// Função : O usuário insere 4 números e o programa retorna o produto e a soma.
+// Autor : Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+
+A,B,C,D,S,P: inteiro
+
+inicio
+
+escreval("")
+escreval("Digite o primeiro número (A): ")
+leia(A)
+escreval("")
+escreval("Digite o segundo número (B): ")
+leia(B)
+escreval("")
+escreval("Digite o terceiro número (C): ")
+leia(C)
+escreval("")
+escreval("Digite o quarto número (D): ")
+leia(D)
+P <- A * C
+S <- B + D
+escreval("")
+escreval("O produto de A x B é: ",P)
+escreval("")
+escreval("A soma de C + D é: ",S)
+
+fimalgoritmo

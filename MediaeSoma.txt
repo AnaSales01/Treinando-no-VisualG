@@ -1,0 +1,25 @@
+algoritmo "MediaeSoma"
+// Função : O usuário insere as notas e o programa retorna a média e a soma das notas.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+N1,N2,N3,N4,M,S: real
+inicio
+escreval("Digite a primeira nota: ")
+leia(N1)
+escreval("Digite a segunda nota: ")
+leia(N2)
+escreval("Digite a terceira nota: ")
+leia(N3)
+escreval("Digite a última nota: ")
+leia(N4)
+M <- (N1+N2+N3+N4)/4
+se M >= 7 entao
+escreval("APROVADO! ",M)
+senao
+escreval("REPROVADO! ",M)
+fimse
+S <- N1+N2+N3+N4
+escreval("Total da notas: ",S)
+fimalgoritmo

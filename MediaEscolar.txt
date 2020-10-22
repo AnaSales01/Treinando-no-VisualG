@@ -1,0 +1,27 @@
+algoritmo "MédiaEscolar"
+// Função : O usuário insere as notas e o programa retorna se o aluno foi ou não aprovado.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+
+ N1,N2,N3,N4,media: real
+
+inicio
+
+escreval("Digite a primeira nota: ")
+leia(N1)
+escreval("Digite a segunda nota: ")
+leia(N2)
+escreval("Digite a terceira nota: ")
+leia(N3)
+escreval("Digite a última nota: ")
+leia(N4)
+Media <- (N1+N2+N3+N4)/4
+se media >= 7 entao
+escreval("APROVADO! ",media)
+senao
+escreval("REPROVADO! ",media)
+fimse
+
+fimalgoritmo

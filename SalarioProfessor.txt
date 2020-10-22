@@ -1,0 +1,25 @@
+algoritmo "SalarioProfessor"
+// Função : O usuário insere os valores e o programa retorna o salário bruto e o salário líquido.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+
+HT,VH,PD,SB,TD,SL: real
+
+inicio
+
+escreval("Digite o valor da hora aula: ")
+leia(VH)
+escreval("Digite as horas trabalhadas no mês: ")
+leia(HT)
+escreval("Digite o percentual de desconto do INSS: ")
+leia(PD)
+SB <- HT * VH
+escreval("O salário bruto é: ",SB)
+TD <- PD/100 * SB
+escreval("O total de deconto é: ",TD)
+SL <- SB - TD
+escreval("O salário líquido é: ",SL)
+
+fimalgoritmo

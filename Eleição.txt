@@ -1,0 +1,47 @@
+algoritmo "eleição"
+// Função : O usuário insere os votos e o programa retorna o percentual dos votos.
+// Autor : Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+
+A,B,C, N,BR,El: inteiro
+PA,PB,PC,PN,PBR,VV: real
+
+inicio
+
+escreval("")
+escreval("Digite os votos do Candidato A: ")
+leia(A)
+escreval("")
+escreval("Digite os votos do Candidato B: ")
+leia(B)
+escreval("")
+escreval("Digite os votos do Candidato C: ")
+leia(C)
+escreval("")
+escreval("Digite o número de votos brancos: ")
+leia(BR)
+escreval("")
+escreval("Digite o número de votos nulos: ")
+leia(N)
+escreval("")
+El <- (A + B + C + N + BR)
+VV <- El - (BR + N)/100
+PA <- (El - A)/100
+PB <- (El - B)/100
+PC <- (El - C)/100
+PN <- (El - N)/100
+PBR <- (El - BR)/100
+limpatela
+escreval("")
+escreval("O total de eleitores foi: ",El)
+escreval("")
+escreval("O percentual de votos válidos é: ",VV," %")
+escreval("O percentual de votos do Candidato A é: ",PA," %")
+escreval("")
+escreval("O percentual de votos do Candidato B é: ",PB," %")
+escreval("")
+escreval("O percentual de votos do Candidato C é: ",PC," %")
+
+fimalgoritmo

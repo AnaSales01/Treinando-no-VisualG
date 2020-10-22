@@ -1,0 +1,29 @@
+algoritmo "Viagem"
+// Função : O usuário insere informações sobre a viagem e o programa retorna distancia e combustível.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 19/10/2020
+// Seção de Declarações 
+var
+
+T,V,D,L: real
+
+inicio
+
+escreval("")
+escreval("Qual foi o tempo gasto na viagem? ")
+leia(T)
+escreval("")
+escreval("Qual foi a velocidade média percorrida? ")
+leia(V)
+D <- T*V
+L <- D/12
+escreval("")
+escreval("O tempo gasto na viagem foi: ",T)
+escreval("")
+escreval("A velocidade média foi: ",V)
+escreval("")
+escreval("A distância percorrida foi: ",D)
+escreval("")
+escreval("A quantidade de combustível usada foi: ",L)
+
+fimalgoritmo
